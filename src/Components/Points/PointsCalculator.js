@@ -1,7 +1,5 @@
 class PointsCalculator {
 
-
-
     constructor(row, col, board){
         this.row = row;
         this.col = col;

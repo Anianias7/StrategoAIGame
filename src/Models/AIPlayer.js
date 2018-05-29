@@ -38,23 +38,22 @@ export default class AIPlayer extends Player {
         })
     };
 
-    minmax = (board, player, depth, points) => {
-        if(depth === 0 || this.checkAllPassibleMoves(board).length === 0){
-            return 0;
-        }
-        let possibleMoves = this.generateNewBoards(board, player);
-        if(){
-
-        possibleMoves.map(move => {
-
-
-
-
-
-           })
-
-
-        }
-
-    }
+    // minmax = (board, player, depth, points) => {
+    //     if(depth === 0 || this.checkAllPassibleMoves(board).length === 0){
+    //         return 0;
+    //     }
+    //     let possibleMoves = this.generateNewBoards(board, player);
+    //
+    //     possibleMoves.map(move => {
+    //
+    //
+    //
+    //
+    //
+    //        })
+    //
+    //
+    //     }
+    //
+    // }
 }

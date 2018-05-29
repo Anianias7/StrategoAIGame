@@ -6,14 +6,8 @@ export default class HumanPlayer extends Player {
         super(playerNo, color);
     }
 
-    validMove = (board, row, col) => board[row][col].playerNo === -1;
-
-    makeMove = (board, row, col) => {
-        if(this.validMove)
-
-    }
-
-
-
+    move = (row, col) => {
+        return {row, col}
+    };
 
 }
