@@ -7,7 +7,7 @@ import RowWrapper from './RowWrapper'
 export default class Row extends Component {
 
     render(){
-        console.log(this.props.size, this.props.tileSize);
+        // console.log(this.props.size, this.props.tileSize);
         return (<RowWrapper
                         margin={this.props.margin}
                         size={this.props.size}

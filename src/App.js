@@ -10,7 +10,7 @@ class App extends Component {
 
   render() {
     return (
-     <Game size={2}/>
+     <Game size={10}/>
     )
   }
 }

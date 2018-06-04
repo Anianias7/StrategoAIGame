@@ -4,10 +4,9 @@ export default class HumanPlayer extends Player {
 
     constructor(playerNo, color) {
         super(playerNo, color);
+        this.name =  "Human Player";
     }
 
-    move = (row, col) => {
-        return {row, col}
-    };
+    getMove = () => {};
 
 }
